@@ -2,12 +2,12 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     line-height: 1.6;
-    background-color: #f0f0f0; /* Light gray background */
+    background-color: #f0f0f0; 
     color: #333;
 }
 
 header {
-    background-color: #007bff; /* Blue header */
+    background-color: #007bff; 
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -15,9 +15,10 @@ header {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly; 
     gap: 20px;
     padding: 10px 0;
+    background-color: #333; 
 }
 
 nav a {
@@ -29,7 +30,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3; 
 }
 
 main {
@@ -71,6 +72,19 @@ img {
 
 .nairobi-image {
     margin-right: 20px;
+}
+
+
+h2 {
+    background-color: #0056b3; 
+    color: white; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+h3 {
+    text-decoration: underline; 
 }
 
 footer {
