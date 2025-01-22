@@ -161,8 +161,7 @@ body {
   body.dark-mode figcaption {
     color: #ddd;
   }
-  
-  /* Larger Screens */
+ 
   @media (min-width: 768px) {
     #hamburger {
       display: none;
