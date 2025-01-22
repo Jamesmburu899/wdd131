@@ -19,3 +19,6 @@ document.getElementById('year').textContent = year;
 
 const lastModified = document.lastModified;
 document.getElementById('last-modified').textContent = lastModified;
+
+const countryAndAuthor = "Nairobi, Kenya James Mburu Maina";
+document.getElementById('country-author').textContent = countryAndAuthor;
