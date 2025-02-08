@@ -153,6 +153,11 @@ const temples = [
   // Initial Display of All Temples
   displayTemples(temples);
   
-  // Footer Year and Last Modified
-  document.getElementById("year").textContent = new Date().getFullYear();
-  document.getElementById("lastModified").textContent = document.lastModified;
+  const year = new Date().getFullYear();
+  document.getElementById('year').textContent = year;
+  
+  const lastModified = document.lastModified;
+  document.getElementById('last-modified').textContent = lastModified;
+  
+  const countryAndAuthor = "Nairobi, Kenya James Mburu Maina";
+  document.getElementById('country-author').textContent = countryAndAuthor;
