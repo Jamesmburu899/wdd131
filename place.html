@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Nairobi National Park - Kenya's urban wildlife sanctuary featuring lions, rhinos, and over 400 bird species">
+    <meta name="keywords" content="Nairobi National Park, Kenya wildlife, safari, urban park">
+    <title>Nairobi National Park</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nairobi National Park</h1>
+        </header>
+        <main class="main-content">
+            <picture>
+                <source srcset="images/national1.webp" media="(min-width: 0px)">
+                <source srcset="images/national1.webp" media="(min-width: 100px)">
+                <img src="images/national1.webp" alt="Nairobi National Park Wildlife" class="hero-image">
+            </picture>
+
+            <div class="info-container">
+                <div class="data-panel">
+                    <h2>Data</h2>
+                    <div class="data-grid">
+                        <div class="data-item">
+                            <span class="data-label">Area:</span>
+                            <span class="data-value">117 sq km</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Established:</span>
+                            <span class="data-value">1946</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Location:</span>
+                            <span class="data-value">Nairobi, Kenya</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Distance:</span>
+                            <span class="data-value">7 km from city center</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Entry Fee:</span>
+                            <span class="data-value">KES 430 (Citizens)</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Wildlife:</span>
+                            <span class="data-value">Lions, Rhinos, Buffalos</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Bird Species:</span>
+                            <span class="data-value">400+</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Operating Hours:</span>
+                            <span class="data-value">6:00 AM - 6:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="weather-panel">
+                    <h2>Weather <svg class="weather-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a6 6 0 016 6c0 4-6 10-6 10S6 12 6 8a6 6 0 016-6z"/></svg></h2>
+                    <div class="weather-grid">
+                        <div class="data-item">
+                            <span class="data-label">Temperature:</span>
+                            <span class="data-value" id="temperature">25°C</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Conditions:</span>
+                            <span class="data-value" id="conditions">Sunny</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Wind:</span>
+                            <span class="data-value" id="wind">12 km/h</span>
+                        </div>
+                        <div class="data-item">
+                            <span class="data-label">Wind Chill:</span>
+                            <span class="data-value" id="windchill">24.8°C</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="footer-content">
+                <span>©<span id="year">2024</span></span>
+                <i class="fas fa-flower footer-icon" aria-hidden="true"></i>
+                <span>James Mburu, Nairobi Kenya</span>
+                <i class="fas fa-tree footer-icon" aria-hidden="true"></i>
+                <span>Nairobi National Park</span>
+            </div>
+            <div class="last-modified">
+                Last Modified: <span id="lastModified">02/08/2024 22:47:47</span>
+            </div>
+        </footer>
+    </div>
+    <script src="script\sripts.js"></script>
+</body>
+</html>
